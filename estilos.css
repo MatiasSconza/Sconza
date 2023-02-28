@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {list-style-type: none; }
+
+li {
+    font-family:font-family 'Paytone One', sans-serif;
+} 
+
+.h2 {
+    font-family: 'Paytone One', sans-serif; color: blue;}
+
+/** No comprendo por qué pero no pude aplicar desde acá el color azul a la clase h2 del html, lo unico que me funcionó fue hacerlo dentro del html*/
+
+
+.textos2 {
+    font-family: font-family 'Roboto', sans-serif;
+    font-weight: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#nombre {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 24px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-style: inherit;
+    font-size: 60px;
+    background-clip: border-box;
+}
+
+#barralateral {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.col-4 {
+   -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    word-wrap: break-word;
+    overflow: auto;
+    margin-top: 30px;
+    height: calc(100vh - 50px);
+}
+
+.col {
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    word-wrap: break-word;
+    overflow: auto;
+    margin-top: 30px;
+    height: calc(100vh - 50px) 
+}
